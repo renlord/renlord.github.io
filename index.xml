@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Renlord</title>
-    <link>https://renlord.com/</link>
+    <link>https://renlord.github.io/</link>
     <description>Recent content on Renlord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://renlord.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://renlord.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://renlord.com/posts/test/</link>
+      <link>https://renlord.github.io/posts/test/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/posts/test/</guid>
+      <guid>https://renlord.github.io/posts/test/</guid>
       <description>#Hello World</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://renlord.com/posts/1/</link>
+      <link>https://renlord.github.io/posts/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/posts/1/</guid>
+      <guid>https://renlord.github.io/posts/1/</guid>
       <description>What I care about applications I use? There&amp;rsquo;s been an abundance of applications implemented nowadays for all kinds of use-cases.
 In the following order of importance: - Privacy - Systems Performance - Fault Tolerance - Programmatic Usability - Anonymity
 Most software written nowadays do not focus on the above metrics. Instead they focus on GUI-friendliness and ease of use as the primary focus, which makes program composition difficult going-forward.</description>
@@ -33,10 +33,10 @@ Most software written nowadays do not focus on the above metrics. Instead they f
     
     <item>
       <title>About Hugo</title>
-      <link>https://renlord.com/about/</link>
+      <link>https://renlord.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/about/</guid>
+      <guid>https://renlord.github.io/about/</guid>
       <description></description>
     </item>
     
