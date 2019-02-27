@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://renlord.github.io/posts/test/</loc>
+    <loc>https://renlord.com/posts/test/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://renlord.github.io/posts/1/</loc>
+    <loc>https://renlord.com/posts/1/</loc>
   </url>
   
   <url>
-    <loc>https://renlord.github.io/about/</loc>
+    <loc>https://renlord.com/about/</loc>
   </url>
   
   <url>
-    <loc>https://renlord.github.io/categories/</loc>
+    <loc>https://renlord.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://renlord.github.io/posts/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://renlord.github.io/</loc>
+    <loc>https://renlord.com/posts/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://renlord.github.io/tags/</loc>
+    <loc>https://renlord.com/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/tags/</loc>
     <priority>0</priority>
   </url>
   
