@@ -6,38 +6,18 @@
     <description>Recent content on Renlord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://renlord.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello World</title>
-      <link>https://renlord.com/posts/test/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://renlord.com/posts/test/</guid>
-      <description>#Hello World</description>
-    </item>
-    
-    <item>
       <title></title>
-      <link>https://renlord.com/posts/1/</link>
+      <link>https://renlord.com/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/posts/1/</guid>
-      <description>What I care about applications I use? There&amp;rsquo;s been an abundance of applications implemented nowadays for all kinds of use-cases.
-In the following order of importance: - Privacy - Systems Performance - Fault Tolerance - Programmatic Usability - Anonymity
-Most software written nowadays do not focus on the above metrics. Instead they focus on GUI-friendliness and ease of use as the primary focus, which makes program composition difficult going-forward.</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://renlord.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://renlord.com/about/</guid>
-      <description></description>
+      <guid>https://renlord.com/teaching/</guid>
+      <description>Teaching I teach or have teached the following subjects in the School of Computing and Information Systems, University of Melbourne:
+ COMP30023 Computer Systems [2017, 2018, 2019], Teaching Assistant COMP90043 Cryptography and Security [2015, 2018], Teaching Assistant SWEN90006 Software Testing [2018, 2019], Teaching Assistant COMP90007 Internet Technologies [2016], Teaching Assistant  On some years, I am more involved with subject assessment designs and marking, but usually I only help run tutorials and help out students with questions.</description>
     </item>
     
   </channel>
