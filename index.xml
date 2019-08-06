@@ -20,5 +20,15 @@
  COMP30023 Computer Systems [2017, 2018, 2019], Teaching Assistant COMP90043 Cryptography and Security [2015, 2018], Teaching Assistant SWEN90006 Software Testing [2018, 2019], Teaching Assistant COMP90007 Internet Technologies [2016], Teaching Assistant  On some years, I am more involved with subject assessment designs and marking, but usually I only help run tutorials and help out students with questions.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://renlord.com/things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/things/</guid>
+      <description>Things Services and Hardware I self-host a good number of services on my inexpensive private cluster of ARM single-board computers (SBCs). I currently own an Odroid XU4, Odroid-N2 and Raspberry Pi 3. Out of the three, I am most satisfied with the Odroid XU4 which runs on armv7hl.
+My setup involves setting Docker Swarm and each service is then spun up using a docker-compose.yml file. For storage, I have disk drives physically mounted in one of my nodes and I share the NAS using NFS with LAN.</description>
+    </item>
+    
   </channel>
 </rss>
