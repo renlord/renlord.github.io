@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://renlord.com/bad/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://renlord.com/teaching/</loc>
     <priority>0</priority>
   </url>
