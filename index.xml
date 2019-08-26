@@ -36,8 +36,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://renlord.com/things/</guid>
-      <description>Things Services and Hardware I self-host a good number of services on my inexpensive private cluster of ARM single-board computers (SBCs). I currently own an Odroid XU4, Odroid-N2 and Raspberry Pi 3. Out of the three, I am most satisfied with the Odroid XU4 which runs on armv7hl.
-My setup involves setting Docker Swarm and each service is then spun up using a docker-compose.yml file. For storage, I have disk drives physically mounted in one of my nodes and I share the NAS using NFS with LAN.</description>
+      <description>Things Communication I use the following chat services (in order of personal preference): - Wire - Signal - Whatsapp[^1]
+[^1] Whatsapp is particularly difficult to ween off since most of the people I talk to use Whatsapp and despite efforts to convince them to adopt Signal/Wire, they&amp;rsquo;ve still refused to do so. I&amp;rsquo;m tentatively tolerant of my usage of Whatsapp since IIUC Whatsapp is still not fully integrated into Facebook Inc.</description>
     </item>
     
   </channel>
