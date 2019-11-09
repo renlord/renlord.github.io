@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Docker Multiarch Builds Quick and Easy | Renlord&#39;s Webpage</title>
+    <link rel="stylesheet" href="https://renlord.com/css/style.css" />
+    <link rel="stylesheet" href="https://renlord.com/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="https://renlord.com/">Home</a></li>
+      
+      <li><a href="https://renlord.com/posts/">Posts</a></li>
+      
+      <li><a href="https://renlord.com/things/">Things</a></li>
+      
+      <li><a href="https://renlord.com/teaching/">Teaching</a></li>
+      
+      <li><a href="https://renlord.com/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Docker Multiarch Builds Quick and Easy</span></h1>
+
+<h2 class="date">2019/11/09</h2>
+</div>
+
+<main>
+
+
+<p>As you all known from my things page, I run a multiarch cluster of nodes to run a variety of my services.
+More often than not, service images provided by maintainers only support x86 and x86_64 architectures.
+As a consequence of this, I have to self-build my service images.</p>
+
+<p>When it was just building for one type of architecture (i.e. <code>arm32</code>) for my Odroid XU4, it was not so bad.
+Once I added another node, my <code>arm64</code> Odroid-N2, it started to become a hassle to manually author custom Dockerfiles to build for each architecture by hand.
+Manual building was a cumbersome process that required me to <code>ssh</code> into each node and installing required dependencies to build the service image on the node with said supported architecture.
+You can imagine how slow this process is on an ARM SBC.</p>
+
+<p>Instead, to streamline the process, my setup involves using QEMU emulation, <code>binfmt</code> and some bash scripting.
+The idea is simple, instead of building the service image on the target device with target architecture, just build on a powerful x86_64 machine with the QEMU emulator.
+To solve the challenge of invoking the QEMU emulator manually, I use <code>binfmt_misc</code> kernel capability to enable arbitrary execution of file formats.
+This capability is really powerful since the kernel inspects the binary file format to look for its runtime signature and it then invokes the appropriate program to execute said file.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>On Archlinux, installing <code>qemu-user-static-bin</code> includes a set of binfmt configurations for various architectures (i.e. armeb, arm, etc.) and a set of statically compiled QEMU emulators.
+It is important that the static binaries are used when building docker images for different architecture.
+When building for a target architecture, all programs (i.e. linkers and other build tools) run in the target architecture.
+Therefore, without the static binary, you will encounter an exec init error when building your image.</p>
+
+<p>Contents of the Package:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">qemu-user-static-bin /usr/
+qemu-user-static-bin /usr/bin/
+qemu-user-static-bin /usr/bin/qemu-aarch64-static
+qemu-user-static-bin /usr/bin/qemu-aarch64_be-static
+qemu-user-static-bin /usr/bin/qemu-alpha-static
+qemu-user-static-bin /usr/bin/qemu-arm-static
+qemu-user-static-bin /usr/bin/qemu-armeb-static
+qemu-user-static-bin /usr/bin/qemu-cris-static
+qemu-user-static-bin /usr/bin/qemu-hppa-static
+qemu-user-static-bin /usr/bin/qemu-i386-static
+qemu-user-static-bin /usr/bin/qemu-m68k-static
+qemu-user-static-bin /usr/bin/qemu-microblaze-static
+qemu-user-static-bin /usr/bin/qemu-microblazeel-static
+qemu-user-static-bin /usr/bin/qemu-mips-static
+qemu-user-static-bin /usr/bin/qemu-mips64-static
+qemu-user-static-bin /usr/bin/qemu-mips64el-static
+qemu-user-static-bin /usr/bin/qemu-mipsel-static
+qemu-user-static-bin /usr/bin/qemu-mipsn32-static
+qemu-user-static-bin /usr/bin/qemu-mipsn32el-static
+qemu-user-static-bin /usr/bin/qemu-nios2-static
+qemu-user-static-bin /usr/bin/qemu-or1k-static
+qemu-user-static-bin /usr/bin/qemu-ppc-static
+qemu-user-static-bin /usr/bin/qemu-ppc64-static
+qemu-user-static-bin /usr/bin/qemu-ppc64abi32-static
+qemu-user-static-bin /usr/bin/qemu-ppc64le-static
+qemu-user-static-bin /usr/bin/qemu-riscv32-static
+qemu-user-static-bin /usr/bin/qemu-riscv64-static
+qemu-user-static-bin /usr/bin/qemu-s390x-static
+qemu-user-static-bin /usr/bin/qemu-sh4-static
+qemu-user-static-bin /usr/bin/qemu-sh4eb-static
+qemu-user-static-bin /usr/bin/qemu-sparc-static
+qemu-user-static-bin /usr/bin/qemu-sparc32plus-static
+qemu-user-static-bin /usr/bin/qemu-sparc64-static
+qemu-user-static-bin /usr/bin/qemu-tilegx-static
+qemu-user-static-bin /usr/bin/qemu-x86_64-static
+qemu-user-static-bin /usr/bin/qemu-xtensa-static
+qemu-user-static-bin /usr/bin/qemu-xtensaeb-static
+qemu-user-static-bin /usr/lib/
+qemu-user-static-bin /usr/lib/binfmt.d/
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-aarch64-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-alpha-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-arm-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-armeb-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-cris-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-m68k-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-microblaze-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-microblazeel-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips64-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips64el-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-mipsel-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64abi32-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64le-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-s390x-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-sh4-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-sh4eb-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc32plus-static.conf
+qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc64-static.conf
+qemu-user-static-bin /usr/share/
+qemu-user-static-bin /usr/share/man/
+qemu-user-static-bin /usr/share/man/man1/
+qemu-user-static-bin /usr/share/man/man1/qemu-aarch64-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-aarch64_be-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-alpha-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-arm-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-armeb-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-cris-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-hppa-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-i386-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-m68k-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-microblaze-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-microblazeel-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-mips-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-mips64-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-mips64el-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-mipsel-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-mipsn32-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-mipsn32el-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-nios2-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-or1k-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-ppc-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-ppc64-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-ppc64abi32-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-ppc64le-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-riscv32-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-riscv64-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-s390x-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-sh4-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-sh4eb-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-sparc-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-sparc32plus-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-sparc64-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-tilegx-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-user-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-x86_64-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-xtensa-static.1.gz
+qemu-user-static-bin /usr/share/man/man1/qemu-xtensaeb-static.1.gz</pre></div>
+<p>If you&rsquo;re not using Archlinux, you might want to find the equivalent package in your target distribution.
+This package is only installed on the host machine you use to build docker multiarch images.</p>
+
+<p>Once this is installed, turn on <code>binfmt_misc</code> capability.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
+echo 1 &gt; /proc/sys/fs/binfmt_misc/status</pre></div>
+<p>For a more permenant setup, <code>echo &quot;none /proc/sys/fs/binfmt_misc binfmt_misc defaults 0 0&quot; | tee /etc/fstab</code> and enable the <code>systemd-binfmt</code> service.</p>
+
+<p>Now, you can build/run any Docker images of any architecture to your heart&rsquo;s content.</p>
+
+<p>Just run <code>docker build . -f [DOCKERFILE] -t [IMAGE_NAME]:[ARCH_TAG]</code>.</p>
+
+<h2 id="multiarch-images">Multiarch Images</h2>
+
+<p>Docker now supports image manifests.
+Image manifest allows you to annotate additional details for specific tagged images.
+Remember to turn on experimental features for the Docker CLI tool at <code>$HOME/.docker/config.json</code> on the host machine where you are authoring the manifest.
+For example, supposed we want to build <code>whoami</code> for <code>arm32</code>, <code>arm64</code> and <code>x86</code>, we can create an image manifest for <code>whoami</code>:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">docker manifest create whoami:latest \
+    whoami:arm32 \
+    whoami:arm64 \
+    whoami:x86
+
+docker manifest annotate --arch arm --os linux whoami:latest \
+    whoami:arm32
+docker manifest annotate --arch arm64 --os linux whoami:latest \
+    whoami:arm64
+docker manifest annotate --arch x86 --os linux whoami:latest \
+    whoami:x86
+docker manifest push -p whoami:latest</pre></div>
+<p>This assumes that you&rsquo;ve already build individual <code>whoami</code> images for each architecture.
+The <code>-p</code> flag for <code>docker manifest push</code> purges the manifest list locally, I found this to be useful as subsequent updates to the manifest require you to recreate the manifest from scratch and if a local copy exist, <code>docker manifest</code> will not run successfully.
+After pushing the manifest to the remote repository, you can now pull <code>whoami:latest</code> from target nodes of various architectures safely without needing to worry about including an <code>[ARCH_TAG]</code> for the image.
+For example, on my Odroid-XU4 which runs <code>arm32</code> arch, it will automatically pull <code>whoami:arm32</code> when I run <code>docker pull whoami:latest</code>.</p>
+
+<h2 id="references">References</h2>
+
+<ol>
+<li><a href="https://lwn.net/Articles/679308/">Architecture emulation containers with binfmt_misc</a></li>
+<li><a href="https://www.kernel.org/doc/html/latest/admin-guide/binfmt-misc.html">Kernel Support for miscellaneous (your favourite) Binary Formats</a></li>
+</ol>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  &copy; Renlord Yang 2019. Hugo Template by <a href="https://yihui.name">Yihui Xie</a>
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Renlord</title>
+    <title>Tags on Renlord&#39;s Webpage</title>
     <link>https://renlord.com/tags/</link>
-    <description>Recent content in Tags on Renlord</description>
+    <description>Recent content in Tags on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://renlord.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://renlord.com/tags/architecture/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containers</title>
+      <link>https://renlord.com/tags/containers/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/tags/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emulation</title>
+      <link>https://renlord.com/tags/emulation/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/tags/emulation/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
