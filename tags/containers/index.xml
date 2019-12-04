@@ -18,7 +18,7 @@
       
       <guid>https://renlord.com/posts/2019-11-09-docker-multiarch/</guid>
       <description>As you all known from my things page, I run a multiarch cluster of nodes to run a variety of my services. More often than not, service images provided by maintainers only support x86 and x86_64 architectures. As a consequence of this, I have to self-build my service images.
-When it was just building for one type of architecture (i.e. arm32) for my Odroid XU4, it was not so bad.</description>
+When it was just building for one type of architecture (i.e. arm32) for my Odroid XU4, it was not so bad. Once I added another node, my arm64 Odroid-N2, it started to become a hassle to manually author custom Dockerfiles to build for each architecture by hand.</description>
     </item>
     
   </channel>

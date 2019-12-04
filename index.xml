@@ -18,7 +18,7 @@
       
       <guid>https://renlord.com/posts/2019-11-09-docker-multiarch/</guid>
       <description>As you all known from my things page, I run a multiarch cluster of nodes to run a variety of my services. More often than not, service images provided by maintainers only support x86 and x86_64 architectures. As a consequence of this, I have to self-build my service images.
-When it was just building for one type of architecture (i.e. arm32) for my Odroid XU4, it was not so bad.</description>
+When it was just building for one type of architecture (i.e. arm32) for my Odroid XU4, it was not so bad. Once I added another node, my arm64 Odroid-N2, it started to become a hassle to manually author custom Dockerfiles to build for each architecture by hand.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ When it was just building for one type of architecture (i.e. arm32) for my Odroi
       
       <guid>https://renlord.com/things/</guid>
       <description>Things Communication I use the following chat services (in order of personal preference):
- Wire (@renlord) IRC on irc.freenode.net (@renlord) Signal [2] Whatsapp [1]  [1] Whatsapp is particularly difficult to ween off since most of the people I talk to use Whatsapp and despite efforts to convince them to adopt Signal/Wire, they&amp;rsquo;ve still refused to do so. I&amp;rsquo;m tentatively tolerant of my usage of Whatsapp since IIUC Whatsapp is still not fully integrated into Facebook Inc.</description>
+ Wire (@renlord) IRC on irc.freenode.net (@renlord) Signal [2] Whatsapp [1]  [1] Whatsapp is particularly difficult to ween off since most of the people I talk to use Whatsapp and despite efforts to convince them to adopt Signal/Wire, they&#39;ve still refused to do so. I&#39;m tentatively tolerant of my usage of Whatsapp since IIUC Whatsapp is still not fully integrated into Facebook Inc.</description>
     </item>
     
   </channel>
