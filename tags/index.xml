@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://renlord.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android</title>
+      <link>https://renlord.com/tags/android/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application</title>
+      <link>https://renlord.com/tags/application/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/tags/application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GrapheneOS</title>
+      <link>https://renlord.com/tags/grapheneos/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/tags/grapheneos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Architecture</title>

@@ -4,22 +4,52 @@
   
   <url>
     <loc>https://renlord.com/</loc>
-    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://renlord.com/posts/</loc>
-    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://renlord.com/tags/architecture/</loc>
-    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
+    <loc>https://renlord.com/tags/android/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/tags/application/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://renlord.com/categories/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/tags/grapheneos/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/categories/operating-system/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/tags/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/tags/architecture/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -40,11 +70,6 @@
   
   <url>
     <loc>https://renlord.com/tags/emulation/</loc>
-    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://renlord.com/tags/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url>
   
