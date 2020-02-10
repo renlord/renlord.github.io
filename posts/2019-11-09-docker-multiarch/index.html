@@ -151,13 +151,13 @@ qemu-user-static-bin /usr/share/man/man1/qemu-user-static.1.gz
 qemu-user-static-bin /usr/share/man/man1/qemu-x86_64-static.1.gz
 qemu-user-static-bin /usr/share/man/man1/qemu-xtensa-static.1.gz
 qemu-user-static-bin /usr/share/man/man1/qemu-xtensaeb-static.1.gz
-</code></pre></div><p>If you're not using Archlinux, you might want to find the equivalent package in your target distribution.
+</code></pre></div><p>If you&rsquo;re not using Archlinux, you might want to find the equivalent package in your target distribution.
 This package is only installed on the host machine you use to build docker multiarch images.</p>
 <p>Once this is installed, turn on <code>binfmt_misc</code> capability.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
 echo 1 &gt; /proc/sys/fs/binfmt_misc/status
 </code></pre></div><p>For a more permenant setup, <code>echo &quot;none /proc/sys/fs/binfmt_misc binfmt_misc defaults 0 0&quot; | tee /etc/fstab</code> and enable the <code>systemd-binfmt</code> service.</p>
-<p>Now, you can build/run any Docker images of any architecture to your heart's content.</p>
+<p>Now, you can build/run any Docker images of any architecture to your heart&rsquo;s content.</p>
 <p>Just run <code>docker build . -f [DOCKERFILE] -t [IMAGE_NAME]:[ARCH_TAG]</code>.</p>
 <h2 id="multiarch-images">Multiarch Images</h2>
 <p>Docker now supports image manifests.
@@ -176,7 +176,7 @@ docker manifest annotate --arch arm64 --os linux whoami:latest \
 docker manifest annotate --arch x86 --os linux whoami:latest \
     whoami:x86
 docker manifest push -p whoami:latest
-</code></pre></div><p>This assumes that you've already build individual <code>whoami</code> images for each architecture.
+</code></pre></div><p>This assumes that you&rsquo;ve already build individual <code>whoami</code> images for each architecture.
 The <code>-p</code> flag for <code>docker manifest push</code> purges the manifest list locally, I found this to be useful as subsequent updates to the manifest require you to recreate the manifest from scratch and if a local copy exist, <code>docker manifest</code> will not run successfully.
 After pushing the manifest to the remote repository, you can now pull <code>whoami:latest</code> from target nodes of various architectures safely without needing to worry about including an <code>[ARCH_TAG]</code> for the image.
 For example, on my Odroid-XU4 which runs <code>arm32</code> arch, it will automatically pull <code>whoami:arm32</code> when I run <code>docker pull whoami:latest</code>.</p>
