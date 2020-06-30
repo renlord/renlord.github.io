@@ -6,10 +6,20 @@
     <description>Recent content on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://renlord.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self Hosting a Mail Transfer Agent</title>
+      <link>https://renlord.com/posts/2020-05-31-self-hosted-email/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/posts/2020-05-31-self-hosted-email/</guid>
+      <description>A couple of weeks ago, Daniel from Graphene OS suggested to me that I should just self-host my own emails as many email providers do not properly setup the latest security extensions that help realise better security for email. To that end, I have decided to also self-host my own MTA &amp;ndash; which now runs as katmail.xyz.
+Email hosting is akin to setting up a virtual post-office, responsible for managing all electronic mail leaving and arriving for a set of mdomains handled by the delegated Mail Transfer Agent.</description>
+    </item>
     
     <item>
       <title>CopperheadOS Bogus Legal Threat</title>
@@ -47,9 +57,10 @@ When it was just building for one type of architecture (i.e. arm32) for my Odroi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://renlord.com/things/</guid>
-      <description>Things Last Updated: 07.05.2020
+      <description>Things Last Updated: 30.06.2020
 Communication I use the following chat services (in order of personal preference):
- Signal IRC on irc.freenode.net (@renlord) Whatsapp [1] Wire (@renlord) NOT USED ANYMORE  [1] Whatsapp is particularly difficult to ween off since most of the people I talk to use Whatsapp and despite efforts to convince them to adopt Signal/Wire, they&amp;rsquo;ve still refused to do so. I&amp;rsquo;m tentatively tolerant of my usage of Whatsapp since IIUC Whatsapp is still not fully integrated into Facebook Inc.</description>
+ Signal IRC on irc.freenode.net (@renlord) Matrix (@renlord) Whatsapp  Bitcoin You know what Bitcoin is, but how does it work?. 3blue1brown (Grant Sanderson) on Youtube explains it best. How secure is Bitcoin? A numerical explanation, again by 3blue1brown (Grant Sanderson) on Youtube.
+Services and Hardware I self-host a good number of services on my inexpensive private cluster of ARM single-board computers (SBCs).</description>
     </item>
     
   </channel>

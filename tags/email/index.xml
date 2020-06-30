@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Renlord&#39;s Webpage</title>
+    <link>https://renlord.com/tags/email/</link>
+    <description>Recent content in Email on Renlord&#39;s Webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://renlord.com/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Self Hosting a Mail Transfer Agent</title>
+      <link>https://renlord.com/posts/2020-05-31-self-hosted-email/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/posts/2020-05-31-self-hosted-email/</guid>
+      <description>A couple of weeks ago, Daniel from Graphene OS suggested to me that I should just self-host my own emails as many email providers do not properly setup the latest security extensions that help realise better security for email. To that end, I have decided to also self-host my own MTA &amp;ndash; which now runs as katmail.xyz.
+Email hosting is akin to setting up a virtual post-office, responsible for managing all electronic mail leaving and arriving for a set of mdomains handled by the delegated Mail Transfer Agent.</description>
+    </item>
+    
+  </channel>
+</rss>
