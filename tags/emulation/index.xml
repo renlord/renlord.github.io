@@ -6,11 +6,7 @@
     <description>Recent content in Emulation on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://renlord.com/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Multiarch Builds Quick and Easy</title>
       <link>https://renlord.com/posts/2019-11-09-docker-multiarch/</link>
