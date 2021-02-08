@@ -28,25 +28,31 @@
 
 <main>
 <h1 id="things">Things</h1>
-<p>Last Updated: 30.06.2020</p>
+<p>Last Updated: 08.02.2021</p>
 <h2 id="communication">Communication</h2>
 <p>I use the following chat services (in order of personal preference):</p>
 <ul>
 <li>Signal</li>
-<li>IRC on irc.freenode.net (@renlord)</li>
-<li>Matrix (@renlord)</li>
-<li>Whatsapp</li>
+<li>IRC on irc.freenode.net (rny @ #grapheneos or #grapheneos-offtopic or ##unimelb)</li>
 </ul>
 <h2 id="bitcoin">Bitcoin</h2>
 <p>You know what Bitcoin is, <a href="https://youtu.be/bBC-nXj3Ng4">but how does it work?</a>. 3blue1brown (Grant Sanderson) on Youtube explains it best.
 How secure is Bitcoin? <a href="https://youtu.be/S9JGmA5_unY">A numerical explanation</a>, again by 3blue1brown (Grant Sanderson) on Youtube.</p>
 <h2 id="services-and-hardware">Services and Hardware</h2>
-<p>I self-host a good number of services on my inexpensive private cluster of ARM single-board computers (SBCs).
-I currently own an <a href="https://wiki.odroid.com/odroid-xu4/odroid-xu4">Odroid XU4</a> and <a href="https://wiki.odroid.com/odroid-n2/odroid-n2">Odroid-N2</a>.</p>
-<p>My setup involves setting Docker Swarm and each service is then spun up using a <code>docker-compose.yml</code> file.
-For storage, I have disk drives physically mounted in one of my nodes and I share the NAS using NFS with LAN.</p>
+<p>I self-host a good number of services on my inexpensive private cluster of ARM single-board computers (SBCs) and a x86 NUC.
+My cluster machine composition is as follows:</p>
+<ul>
+<li><a href="https://wiki.odroid.com/odroid-xu4/odroid-xu4">Odroid XU4</a> (armv7l running ArchlinuxARM)</li>
+<li><a href="https://wiki.odroid.com/odroid-n2/odroid-n2">Odroid N2</a> (aarch64 running Ubuntu)</li>
+<li><a href="https://wiki.kobol.io/helios64/intro/">Kobol Helios64</a> (aarch64 running Armbian)</li>
+<li><a href="https://www.gigabyte.com/au/Mini-PcBarebone/GB-BRR5H-4500-rev-10">Gigabyte Brix S NUC</a> (x86_64 running Archlinux)</li>
+</ul>
+<p>My setup involves setting Docker Swarm and each service is then spun up using a <code>docker-compose.yml</code> file, therefore all my services are Linux distribution-agnostic.
+Unfortunately, I need to stick with specific distributions for specific hardware due to poor/slow kernel maintainenance by the hardware vendors.
+For storage, I have disk drives physically mounted in one of my nodes and I share the NAS using NFS with LAN.
+All my devices operate within the docker swarm network which is encrypted within my LAN and the only ingress/egress network interfaces are an exposed HTTPS port and wireguard UDP port whitelisted on my router.</p>
 <p>I use <a href="https://superloop.com.au">Superloop</a> as my ISP.
-They have exceptionally good international transit compared to other past ISPs I have used (i.e. TPG, Tangerine, AussieBB and Exetel).</p>
+They have relatively good and reliable international transit compared to other past ISPs I have used (i.e. TPG, Tangerine, AussieBB and Exetel).</p>
 <p>Since June 2020, I have ceased paying for any online services besides virtual private server hosting.</p>
 <p>Some example services that I self-host:</p>
 <ul>
@@ -61,6 +67,7 @@ They have exceptionally good international transit compared to other past ISPs I
 <h2 id="my-ride-around-town">My Ride around Town</h2>
 <p>Since public transport is highly unreliable and road congestion drives me crazy, I ride a bicycle around Melbourne.</p>
 <p><img src="../images/bicycle.jpg" alt="Reid Vantage Endurance 2.0"></p>
+<p>** THIS BICYCLE WAS STOLEN IN DECEMBER 2020!! **</p>
 <h2 id="commuting-on-a-bicycle-around-melbourne">Commuting on a bicycle around Melbourne</h2>
 <p><img src="../images/melbourne-bike-trail-map.jpg" alt="Map of Melbourne Bike Trails">
 Map of Melbourne Bike Trails. Credits to <a href="https://www.reddit.com/r/melbourne/comments/aqepoa/a_map_of_all_the_major_bike_trails_of_melbourne_oc/">/u/Fozzaroo from /r/melbourne</a>.
