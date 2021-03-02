@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://renlord.com/</loc>
-    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://renlord.com/posts/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -40,6 +35,11 @@
   
   <url>
     <loc>https://renlord.com/tags/legal/</loc>
+    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renlord.com/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
   </url>
   

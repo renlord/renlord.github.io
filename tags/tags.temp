@@ -1,0 +1,254 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/rl/Projects/ACTIVE/renlord.github.io/public/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+.article-meta	css/style.css	/^.article-meta, .menu a {$/;"	c
+.article-meta	css/style.css	/^.menu, .article-meta, footer { text-align: center; }$/;"	c
+.menu	css/style.css	/^.menu { padding: 0; }$/;"	c
+.menu	css/style.css	/^.menu, .article-meta, footer { text-align: center; }$/;"	c
+.menu a	css/style.css	/^.article-meta, .menu a {$/;"	s
+.menu li	css/style.css	/^.menu li { display: inline-block; }$/;"	s
+.title	css/style.css	/^.title { font-size: 1.1em; }$/;"	c
+2018/04/01	posts/test/index.html	/^<h2 class="date">2018\/04\/01<\/h2>$/;"	i
+2019/11/09	posts/2019-11-09-docker-multiarch/index.html	/^<h2 class="date">2019\/11\/09<\/h2>$/;"	i
+2020/01/09	posts/2020-01-10-grapheneos-compatible-apps/index.html	/^<h2 class="date">2020\/01\/09<\/h2>$/;"	i
+2020/03/25	posts/2020-03-25-copperheados-legal-threat/index.html	/^<h2 class="date">2020\/03\/25<\/h2>$/;"	i
+2020/03/25	posts/copperhead-legal-thread/index.html	/^<h2 class="date">2020\/03\/25<\/h2>$/;"	i
+2020/05/31	posts/2020-05-31-self-hosted-email/index.html	/^<h2 class="date">2020\/05\/31<\/h2>$/;"	i
+About Hugo	about/index.html	/^<h1><span class="title">About Hugo<\/span><\/h1>$/;"	h
+Android	tags/android/index.html	/^<h1>Android<\/h1>$/;"	h
+Apk Packages I use on Graphene OS	posts/2020-01-10-grapheneos-compatible-apps/index.html	/^<h1><span class="title">Apk Packages I use on Graphene OS<\/span><\/h1>$/;"	h
+Application	tags/application/index.html	/^<h1>Application<\/h1>$/;"	h
+Architecture	tags/architecture/index.html	/^<h1>Architecture<\/h1>$/;"	h
+Bad Service Providers	bad/index.html	/^<h1 id="bad-service-providers">Bad Service Providers<\/h1>$/;"	h
+Bitcoin	things/index.html	/^<h2 id="bitcoin">Bitcoin<\/h2>$/;"	i
+Categories	categories/index.html	/^<h1>Categories<\/h1>$/;"	h
+Communication	things/index.html	/^<h2 id="communication">Communication<\/h2>$/;"	i
+Commuting on a bicycle around Melbourne	things/index.html	/^<h2 id="commuting-on-a-bicycle-around-melbourne">Commuting on a bicycle around Melbourne<\/h2>$/;"	i
+Contact	index.html	/^<h2 id="contact">Contact<\/h2>$/;"	i
+Containers	tags/containers/index.html	/^<h1>Containers<\/h1>$/;"	h
+CopperheadOS Bogus Legal Threat	posts/2020-03-25-copperheados-legal-threat/index.html	/^<h1><span class="title">CopperheadOS Bogus Legal Threat<\/span><\/h1>$/;"	h
+CopperheadOS Bogus Legal Threat	posts/copperhead-legal-thread/index.html	/^<h1><span class="title">CopperheadOS Bogus Legal Threat<\/span><\/h1>$/;"	h
+Copyright	tags/copyright/index.html	/^<h1>Copyright<\/h1>$/;"	h
+Docker	categories/docker/index.html	/^<h1>Docker<\/h1>$/;"	h
+Docker Multiarch Builds Quick and Easy	posts/2019-11-09-docker-multiarch/index.html	/^<h1><span class="title">Docker Multiarch Builds Quick and Easy<\/span><\/h1>$/;"	h
+Domain Name System	posts/2020-05-31-self-hosted-email/index.html	/^<h2 id="domain-name-system">Domain Name System<\/h2>$/;"	i
+Email	categories/email/index.html	/^<h1>Email<\/h1>$/;"	h
+Email	tags/email/index.html	/^<h1>Email<\/h1>$/;"	h
+Emulation	tags/emulation/index.html	/^<h1>Emulation<\/h1>$/;"	h
+GrapheneOS	tags/grapheneos/index.html	/^<h1>GrapheneOS<\/h1>$/;"	h
+Hello World	posts/test/index.html	/^<h1><span class="title">Hello World<\/span><\/h1>$/;"	h
+Introduction	index.html	/^<h2 id="introduction">Introduction<\/h2>$/;"	i
+Legal	tags/legal/index.html	/^<h1>Legal<\/h1>$/;"	h
+Multiarch Images	posts/2019-11-09-docker-multiarch/index.html	/^<h2 id="multiarch-images">Multiarch Images<\/h2>$/;"	i
+My Ride around Town	things/index.html	/^<h2 id="my-ride-around-town">My Ride around Town<\/h2>$/;"	i
+Open Source	categories/open-source/index.html	/^<h1>Open Source<\/h1>$/;"	h
+Open Source Contributions	index.html	/^<h2 id="open-source-contributions">Open Source Contributions<\/h2>$/;"	i
+Operating System	categories/operating-system/index.html	/^<h1>Operating System<\/h1>$/;"	h
+Operating Systems	categories/operating-systems/index.html	/^<h1>Operating Systems<\/h1>$/;"	h
+Posts	posts/index.html	/^<h1 id="posts">Posts<\/h1>$/;"	h
+Proceedings	index.html	/^<h3 id="proceedings">Proceedings<\/h3>$/;"	j
+Publications	index.html	/^<h2 id="publications">Publications<\/h2>$/;"	i
+References	posts/2019-11-09-docker-multiarch/index.html	/^<h2 id="references">References<\/h2>$/;"	i
+Renlord Yang	index.html	/^<h1 id="renlord-yang">Renlord Yang<\/h1>$/;"	h
+Self Hosting a Mail Transfer Agent	posts/2020-05-31-self-hosted-email/index.html	/^<h1><span class="title">Self Hosting a Mail Transfer Agent<\/span><\/h1>$/;"	h
+Services and Hardware	things/index.html	/^<h2 id="services-and-hardware">Services and Hardware<\/h2>$/;"	i
+Setup	posts/2019-11-09-docker-multiarch/index.html	/^<h2 id="setup">Setup<\/h2>$/;"	i
+Sysadmin	categories/sysadmin/index.html	/^<h1>Sysadmin<\/h1>$/;"	h
+Sysadmin	tags/sysadmin/index.html	/^<h1>Sysadmin<\/h1>$/;"	h
+Tags	tags/index.html	/^<h1>Tags<\/h1>$/;"	h
+Things	things/index.html	/^<h1 id="things">Things<\/h1>$/;"	h
+Unpublished Manuscript	index.html	/^<h3 id="unpublished-manuscript">Unpublished Manuscript<\/h3>$/;"	j
+What I care about applications I use?	posts/1/index.html	/^<h1 id="what-i-care-about-applications-i-use">What I care about applications I use?<\/h1>$/;"	h
+atom	categories/docker/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	categories/email/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	categories/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	categories/open-source/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	categories/operating-system/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	categories/operating-systems/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	categories/sysadmin/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	posts/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/android/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/application/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/architecture/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/containers/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/copyright/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/email/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/emulation/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/grapheneos/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/legal/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+atom	tags/sysadmin/index.xml	/^<rss version="2.0" xmlns:atom="http:\/\/www.w3.org\/2005\/Atom">$/;"	n	uri:http://www.w3.org/2005/Atom
+background	research/cp6/geth-1.cpuofftime.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-1.cpuofftime.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth-offcpu-2.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-offcpu-2.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth-offcpu-3.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-offcpu-3.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth-oncpu-1.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-oncpu-1.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth-oncpu-2-FC.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-oncpu-2-FC.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth-oncpu-2.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-oncpu-2.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth-oncpu-3.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth-oncpu-3.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth.cpuofftime.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth.cpuofftime.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/geth2.cpuofftime.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/geth2.cpuofftime.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/offcpu-maxproc1.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/offcpu-maxproc1.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+background	research/cp6/oncpu-maxproc1.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	d
+background	research/cp6/oncpu-maxproc1.svg	/^	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >$/;"	i
+bad-service-providers	bad/index.html	/^<h1 id="bad-service-providers">Bad Service Providers<\/h1>$/;"	I
+bitcoin	things/index.html	/^<h2 id="bitcoin">Bitcoin<\/h2>$/;"	I
+blockquote	css/style.css	/^blockquote {$/;"	s
+body	css/fonts.css	/^body {$/;"	s
+body	css/style.css	/^body {$/;"	s
+code	css/fonts.css	/^code {$/;"	s
+code	css/style.css	/^code { background: #f9f9f9; }$/;"	s
+communication	things/index.html	/^<h2 id="communication">Communication<\/h2>$/;"	I
+commuting-on-a-bicycle-around-melbourne	things/index.html	/^<h2 id="commuting-on-a-bicycle-around-melbourne">Commuting on a bicycle around Melbourne<\/h2>$/;"	I
+contact	index.html	/^<h2 id="contact">Contact<\/h2>$/;"	I
+details	research/cp6/geth-1.cpuofftime.svg	/^<text id="details" x="10.00" y="1189" > <\/text>$/;"	i
+details	research/cp6/geth-offcpu-2.svg	/^<text id="details" x="10.00" y="1205" > <\/text>$/;"	i
+details	research/cp6/geth-offcpu-3.svg	/^<text id="details" x="10.00" y="1205" > <\/text>$/;"	i
+details	research/cp6/geth-oncpu-1.svg	/^<text id="details" x="10.00" y="1349" > <\/text>$/;"	i
+details	research/cp6/geth-oncpu-2-FC.svg	/^<text id="details" x="10.00" y="1333" > <\/text>$/;"	i
+details	research/cp6/geth-oncpu-2.svg	/^<text id="details" x="10.00" y="1333" > <\/text>$/;"	i
+details	research/cp6/geth-oncpu-3.svg	/^<text id="details" x="10.00" y="1333" > <\/text>$/;"	i
+details	research/cp6/geth.cpuofftime.svg	/^<text id="details" x="10.00" y="1189" > <\/text>$/;"	i
+details	research/cp6/geth2.cpuofftime.svg	/^<text id="details" x="10.00" y="1189" > <\/text>$/;"	i
+details	research/cp6/offcpu-maxproc1.svg	/^<text id="details" x="10.00" y="1253" > <\/text>$/;"	i
+details	research/cp6/oncpu-maxproc1.svg	/^<text id="details" x="10.00" y="1317" > <\/text>$/;"	i
+domain-name-system	posts/2020-05-31-self-hosted-email/index.html	/^<h2 id="domain-name-system">Domain Name System<\/h2>$/;"	I
+footer	css/style.css	/^.menu, .article-meta, footer { text-align: center; }$/;"	s
+footer a	css/style.css	/^footer a { text-decoration: none; }$/;"	s
+frames	research/cp6/geth-1.cpuofftime.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth-offcpu-2.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth-offcpu-3.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth-oncpu-1.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth-oncpu-2-FC.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth-oncpu-2.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth-oncpu-3.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth.cpuofftime.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/geth2.cpuofftime.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/offcpu-maxproc1.svg	/^<g id="frames">$/;"	i
+frames	research/cp6/oncpu-maxproc1.svg	/^<g id="frames">$/;"	i
+heading	posts/2020-05-31-self-hosted-email/index.html	/^<h2 id="heading"><\/h2>$/;"	I
+hr	css/style.css	/^hr {$/;"	s
+iframe	css/style.css	/^img, iframe, video { max-width: 100%; }$/;"	s
+ignorecase	research/cp6/geth-1.cpuofftime.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth-offcpu-2.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth-offcpu-3.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth-oncpu-1.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth-oncpu-2-FC.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth-oncpu-2.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth-oncpu-3.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth.cpuofftime.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/geth2.cpuofftime.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/offcpu-maxproc1.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+ignorecase	research/cp6/oncpu-maxproc1.svg	/^<text id="ignorecase" x="1174.00" y="24" >ic<\/text>$/;"	i
+img	css/style.css	/^img, iframe, video { max-width: 100%; }$/;"	s
+introduction	index.html	/^<h2 id="introduction">Introduction<\/h2>$/;"	I
+main	css/style.css	/^main { hyphens: auto; }$/;"	s
+matched	research/cp6/geth-1.cpuofftime.svg	/^<text id="matched" x="1090.00" y="1189" > <\/text>$/;"	i
+matched	research/cp6/geth-offcpu-2.svg	/^<text id="matched" x="1090.00" y="1205" > <\/text>$/;"	i
+matched	research/cp6/geth-offcpu-3.svg	/^<text id="matched" x="1090.00" y="1205" > <\/text>$/;"	i
+matched	research/cp6/geth-oncpu-1.svg	/^<text id="matched" x="1090.00" y="1349" > <\/text>$/;"	i
+matched	research/cp6/geth-oncpu-2-FC.svg	/^<text id="matched" x="1090.00" y="1333" > <\/text>$/;"	i
+matched	research/cp6/geth-oncpu-2.svg	/^<text id="matched" x="1090.00" y="1333" > <\/text>$/;"	i
+matched	research/cp6/geth-oncpu-3.svg	/^<text id="matched" x="1090.00" y="1333" > <\/text>$/;"	i
+matched	research/cp6/geth.cpuofftime.svg	/^<text id="matched" x="1090.00" y="1189" > <\/text>$/;"	i
+matched	research/cp6/geth2.cpuofftime.svg	/^<text id="matched" x="1090.00" y="1189" > <\/text>$/;"	i
+matched	research/cp6/offcpu-maxproc1.svg	/^<text id="matched" x="1090.00" y="1253" > <\/text>$/;"	i
+matched	research/cp6/oncpu-maxproc1.svg	/^<text id="matched" x="1090.00" y="1317" > <\/text>$/;"	i
+multiarch-images	posts/2019-11-09-docker-multiarch/index.html	/^<h2 id="multiarch-images">Multiarch Images<\/h2>$/;"	I
+my-ride-around-town	things/index.html	/^<h2 id="my-ride-around-town">My Ride around Town<\/h2>$/;"	I
+ns00b8bc9d0101	research/cp6/geth-1.cpuofftime.svg	/^<svg version="1.1" width="1200" height="1206" onload="init(evt)" viewBox="0 0 1200 1206" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+ns25ddb52f0101	research/cp6/geth-oncpu-1.svg	/^<svg version="1.1" width="1200" height="1366" onload="init(evt)" viewBox="0 0 1200 1366" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+ns25efcdb00101	research/cp6/geth-oncpu-2.svg	/^<svg version="1.1" width="1200" height="1350" onload="init(evt)" viewBox="0 0 1200 1350" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+ns2601e6310101	research/cp6/geth-oncpu-3.svg	/^<svg version="1.1" width="1200" height="1350" onload="init(evt)" viewBox="0 0 1200 1350" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+ns2b972dd70101	sitemap.xml	/^  xmlns:xhtml="http:\/\/www.w3.org\/1999\/xhtml">$/;"	n	uri:http://www.sitemaps.org/schemas/sitemap/0.9
+ns3587861f0101	research/cp6/geth.cpuofftime.svg	/^<svg version="1.1" width="1200" height="1206" onload="init(evt)" viewBox="0 0 1200 1206" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+ns3adf48310101	research/cp6/geth2.cpuofftime.svg	/^<svg version="1.1" width="1200" height="1206" onload="init(evt)" viewBox="0 0 1200 1206" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+ns941fef140101	research/cp6/oncpu-maxproc1.svg	/^<svg version="1.1" width="1200" height="1334" onload="init(evt)" viewBox="0 0 1200 1334" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+nsbfd299320101	research/cp6/offcpu-maxproc1.svg	/^<svg version="1.1" width="1200" height="1270" onload="init(evt)" viewBox="0 0 1200 1270" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+nscaaea4260101	research/cp6/geth-oncpu-2-FC.svg	/^<svg version="1.1" width="1200" height="1350" onload="init(evt)" viewBox="0 0 1200 1350" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+nsd862742e0101	research/cp6/geth-offcpu-2.svg	/^<svg version="1.1" width="1200" height="1222" onload="init(evt)" viewBox="0 0 1200 1222" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+nsd8748caf0101	research/cp6/geth-offcpu-3.svg	/^<svg version="1.1" width="1200" height="1222" onload="init(evt)" viewBox="0 0 1200 1222" xmlns="/;"	n	uri:http://www.w3.org/2000/svg
+open-source-contributions	index.html	/^<h2 id="open-source-contributions">Open Source Contributions<\/h2>$/;"	I
+posts	posts/index.html	/^<h1 id="posts">Posts<\/h1>$/;"	I
+pre	css/style.css	/^pre {$/;"	s
+pre code	css/style.css	/^pre code { background: none; }$/;"	s
+proceedings	index.html	/^<h3 id="proceedings">Proceedings<\/h3>$/;"	I
+publications	index.html	/^<h2 id="publications">Publications<\/h2>$/;"	I
+references	posts/2019-11-09-docker-multiarch/index.html	/^<h2 id="references">References<\/h2>$/;"	I
+renlord-yang	index.html	/^<h1 id="renlord-yang">Renlord Yang<\/h1>$/;"	I
+search	research/cp6/geth-1.cpuofftime.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth-offcpu-2.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth-offcpu-3.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth-oncpu-1.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth-oncpu-2-FC.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth-oncpu-2.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth-oncpu-3.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth.cpuofftime.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/geth2.cpuofftime.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/offcpu-maxproc1.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+search	research/cp6/oncpu-maxproc1.svg	/^<text id="search" x="1090.00" y="24" >Search<\/text>$/;"	i
+services-and-hardware	things/index.html	/^<h2 id="services-and-hardware">Services and Hardware<\/h2>$/;"	I
+setup	posts/2019-11-09-docker-multiarch/index.html	/^<h2 id="setup">Setup<\/h2>$/;"	I
+table	css/style.css	/^table {$/;"	s
+table thead th	css/style.css	/^table thead th { border-bottom: 1px solid #ddd; }$/;"	s
+td	css/style.css	/^th, td { padding: 5px; }$/;"	s
+tfoot	css/style.css	/^thead, tfoot, tr:nth-child(even) { background: #eee; }$/;"	s
+th	css/style.css	/^th, td { padding: 5px; }$/;"	s
+thead	css/style.css	/^thead, tfoot, tr:nth-child(even) { background: #eee; }$/;"	s
+things	things/index.html	/^<h1 id="things">Things<\/h1>$/;"	I
+title	research/cp6/geth-1.cpuofftime.svg	/^<text id="title" x="600.00" y="24" >offcputime:geth1.9<\/text>$/;"	i
+title	research/cp6/geth-offcpu-2.svg	/^<text id="title" x="600.00" y="24" >geth-OFFcpu-60s<\/text>$/;"	i
+title	research/cp6/geth-offcpu-3.svg	/^<text id="title" x="600.00" y="24" >geth-offcpu-3<\/text>$/;"	i
+title	research/cp6/geth-oncpu-1.svg	/^<text id="title" x="600.00" y="24" >geth-oncpu-60s<\/text>$/;"	i
+title	research/cp6/geth-oncpu-2-FC.svg	/^<text id="title" x="600.00" y="24" >geth-oncpu-60s<\/text>$/;"	i
+title	research/cp6/geth-oncpu-2.svg	/^<text id="title" x="600.00" y="24" >geth-oncpu-60s<\/text>$/;"	i
+title	research/cp6/geth-oncpu-3.svg	/^<text id="title" x="600.00" y="24" >Flame Graph<\/text>$/;"	i
+title	research/cp6/geth.cpuofftime.svg	/^<text id="title" x="600.00" y="24" >offcputime:geth1.9<\/text>$/;"	i
+title	research/cp6/geth2.cpuofftime.svg	/^<text id="title" x="600.00" y="24" >offcputime:geth1.9<\/text>$/;"	i
+title	research/cp6/offcpu-maxproc1.svg	/^<text id="title" x="600.00" y="24" >offcpu-19-08<\/text>$/;"	i
+title	research/cp6/oncpu-maxproc1.svg	/^<text id="title" x="600.00" y="24" >oncpu-19-08<\/text>$/;"	i
+tr:nth-child(even)	css/style.css	/^thead, tfoot, tr:nth-child(even) { background: #eee; }$/;"	s
+unpublished-manuscript	index.html	/^<h3 id="unpublished-manuscript">Unpublished Manuscript<\/h3>$/;"	I
+unzoom	research/cp6/geth-1.cpuofftime.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth-offcpu-2.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth-offcpu-3.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth-oncpu-1.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth-oncpu-2-FC.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth-oncpu-2.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth-oncpu-3.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth.cpuofftime.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/geth2.cpuofftime.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/offcpu-maxproc1.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+unzoom	research/cp6/oncpu-maxproc1.svg	/^<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom<\/text>$/;"	i
+video	css/style.css	/^img, iframe, video { max-width: 100%; }$/;"	s
+what-i-care-about-applications-i-use	posts/1/index.html	/^<h1 id="what-i-care-about-applications-i-use">What I care about applications I use?<\/h1>$/;"	I
+xhtml	sitemap.xml	/^  xmlns:xhtml="http:\/\/www.w3.org\/1999\/xhtml">$/;"	n	uri:http://www.w3.org/1999/xhtml
+xlink	research/cp6/geth-1.cpuofftime.svg	/^<svg version="1.1" width="1200" height="1206" onload="init(evt)" viewBox="0 0 1200 1206" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth-offcpu-2.svg	/^<svg version="1.1" width="1200" height="1222" onload="init(evt)" viewBox="0 0 1200 1222" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth-offcpu-3.svg	/^<svg version="1.1" width="1200" height="1222" onload="init(evt)" viewBox="0 0 1200 1222" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth-oncpu-1.svg	/^<svg version="1.1" width="1200" height="1366" onload="init(evt)" viewBox="0 0 1200 1366" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth-oncpu-2-FC.svg	/^<svg version="1.1" width="1200" height="1350" onload="init(evt)" viewBox="0 0 1200 1350" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth-oncpu-2.svg	/^<svg version="1.1" width="1200" height="1350" onload="init(evt)" viewBox="0 0 1200 1350" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth-oncpu-3.svg	/^<svg version="1.1" width="1200" height="1350" onload="init(evt)" viewBox="0 0 1200 1350" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth.cpuofftime.svg	/^<svg version="1.1" width="1200" height="1206" onload="init(evt)" viewBox="0 0 1200 1206" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/geth2.cpuofftime.svg	/^<svg version="1.1" width="1200" height="1206" onload="init(evt)" viewBox="0 0 1200 1206" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/offcpu-maxproc1.svg	/^<svg version="1.1" width="1200" height="1270" onload="init(evt)" viewBox="0 0 1200 1270" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	research/cp6/oncpu-maxproc1.svg	/^<svg version="1.1" width="1200" height="1334" onload="init(evt)" viewBox="0 0 1200 1334" xmlns="/;"	n	uri:http://www.w3.org/1999/xlink
