@@ -1,0 +1,10 @@
+/* TEAM */
+Your title: Renlord Yang
+Site: me[at]renlord.com
+Twitter: renlord1
+Location: Melbourne, VIC, AU
+
+/* SITE */
+Last update: 02/03/2020
+Standards: HTML5, CSS3
+Software: go-hugo
