@@ -1,110 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://renlord.com/posts/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/android/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/categories/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/posts/2020-03-25-copperheados-legal-threat/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/copyright/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/grapheneos/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/legal/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/categories/open-source/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/categories/operating-systems/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/application/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/categories/operating-system/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/architecture/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/containers/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/categories/docker/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/posts/2019-11-09-docker-multiarch/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/tags/emulation/</loc>
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/google29121bf6dbd9149a/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renlord.com/things/</loc>
   </url>
-  
 </urlset>
