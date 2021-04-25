@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emulation on Renlord&#39;s Webpage</title>
-    <link>https://renlord.com/tags/emulation/</link>
+    <link>https://www.renlord.com/tags/emulation/</link>
     <description>Recent content in Emulation on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.renlord.com/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Multiarch Builds Quick and Easy</title>
-      <link>https://renlord.com/posts/2019-11-09-docker-multiarch/</link>
+      <link>https://www.renlord.com/posts/2019-11-09-docker-multiarch/</link>
       <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/posts/2019-11-09-docker-multiarch/</guid>
+      <guid>https://www.renlord.com/posts/2019-11-09-docker-multiarch/</guid>
       <description>As you all known from my things page, I run a multiarch cluster of nodes to run a variety of my services. More often than not, service images provided by maintainers only support x86 and x86_64 architectures. As a consequence of this, I have to self-build my service images.
 When it was just building for one type of architecture (i.e. arm32) for my Odroid XU4, it was not so bad. Once I added another node, my arm64 Odroid-N2, it started to become a hassle to manually author custom Dockerfiles to build for each architecture by hand.</description>
     </item>

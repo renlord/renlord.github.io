@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Renlord&#39;s Webpage</title>
-    <link>https://renlord.com/categories/</link>
+    <link>https://www.renlord.com/categories/</link>
     <description>Recent content in Categories on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.renlord.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open Source</title>
-      <link>https://renlord.com/categories/open-source/</link>
+      <link>https://www.renlord.com/categories/open-source/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/categories/open-source/</guid>
+      <guid>https://www.renlord.com/categories/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Operating Systems</title>
-      <link>https://renlord.com/categories/operating-systems/</link>
+      <link>https://www.renlord.com/categories/operating-systems/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/categories/operating-systems/</guid>
+      <guid>https://www.renlord.com/categories/operating-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Operating System</title>
-      <link>https://renlord.com/categories/operating-system/</link>
+      <link>https://www.renlord.com/categories/operating-system/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/categories/operating-system/</guid>
+      <guid>https://www.renlord.com/categories/operating-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://renlord.com/categories/docker/</link>
+      <link>https://www.renlord.com/categories/docker/</link>
       <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://renlord.com/categories/docker/</guid>
+      <guid>https://www.renlord.com/categories/docker/</guid>
       <description></description>
     </item>
     
