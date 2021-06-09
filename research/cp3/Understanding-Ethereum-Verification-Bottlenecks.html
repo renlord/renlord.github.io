@@ -13085,7 +13085,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="https://www.renlord.com/research/cp3/understanding-ethereum-verification-bottlenecks.html">https://www.renlord.com/research/cp3/understanding-ethereum-verification-bottlenecks.html</a></p>
-<h2 id="Runtime-Observations">Runtime Observations<a class="anchor-link" href="#Runtime-Observations">&#182;</a></h2><p>What we have done to date:</p>
+<h2 id="Runtime-Observations">Runtime Observations<a class="anchor-link" href="#Runtime-Observations">&#182;</a></h2><p>What we have collected to date:</p>
 <ol>
 <li>On-CPU runtime profiling for openethereum, geth and turbo-geth</li>
 <li>Off-CPU runtime profiling for geth ONLY.</li>
@@ -13097,18 +13097,20 @@ div#notebook {
 <li>For On-CPU runtime profiling flamegraphs, since we have the full stack trace when samples are collected, we can infer how often there's a cache hit/miss.</li>
 <li>Proportion of time spent on various operations.</li>
 </ol>
-<h3 id="On-CPU-Trace-(geth)">On-CPU Trace (geth)<a class="anchor-link" href="#On-CPU-Trace-(geth)">&#182;</a></h3><p><img src="geth-merged.svg" alt="https://www.renlord.com/research/cp3/geth-merged.svg"></p>
+<h3 id="On-CPU-Trace-(geth)">On-CPU Trace (geth)<a class="anchor-link" href="#On-CPU-Trace-(geth)">&#182;</a></h3><p><img src="https://www.renlord.com/research/cp3/geth-merged.svg" alt="https://www.renlord.com/research/cp3/geth-merged.svg"></p>
 <h3 id="Off-CPU-Traces-(geth)">Off-CPU Traces (geth)<a class="anchor-link" href="#Off-CPU-Traces-(geth)">&#182;</a></h3><p>Now, lets look at off-cpu traces:</p>
-<p><img src="geth1.9-observations/geth-1.cpuofftime.svg" alt="https://www.renlord.com/research/cp3/geth-1.cpuofftime.svg"></p>
+<p><img src="https://www.renlord.com/research/cp3/geth-1.cpuofftime.svg" alt="https://www.renlord.com/research/cp3/geth-1.cpuofftime.svg"></p>
 <p>The way off-cpu is measured involves tracing when the target process is prempted by the scheduler and placed in <code>uninterruptible sleep</code> state. We specifically target off-cpu traces when in this state as processes are put in this state iff the process must yield the CPU due to waiting on an I/O operation.</p>
-<p><img src="geth1.9-observations/geth.cpuofftime.svg" alt="https://www.renlord.com/research/cp3/geth.cpuofftime.svg"></p>
+<p><img src="https://www.renlord.com/research/cp3/geth.cpuofftime.svg" alt="https://www.renlord.com/research/cp3/geth.cpuofftime.svg"></p>
 <p>Bar width indicates proportion of time spent off-time.</p>
 <p>Bar height represents the function stack at the time when process is placed in <code>uninterruptible sleep</code>.</p>
-<p><img src="geth1.9-observations/geth2.cpuofftime.svg" alt="https://www.renlord.com/research/cp3/geth2.cpuofftime.svg"></p>
+<p><img src="https://www.renlord.com/research/cp3/geth2.cpuofftime.svg" alt="https://www.renlord.com/research/cp3/geth2.cpuofftime.svg"></p>
 <p><strong> IF YOU WANT TO LOOK AT THESE INTERACTIVELY and be able to click on them, go to:</strong></p>
 <ul>
 <li><a href="https://www.renlord.com/research/cp3/geth-merged.svg">https://www.renlord.com/research/cp3/geth-merged.svg</a></li>
-<li><a href="https://www.renlord.com/research/cp3/geth-offcpu-3.svg">https://www.renlord.com/research/cp3/geth-offcpu-3.svg</a></li>
+<li><a href="https://www.renlord.com/research/cp3/geth.cpuofftime.svg">https://www.renlord.com/research/cp3/geth.cpuofftime.svg</a></li>
+<li><a href="https://www.renlord.com/research/cp3/geth2.cpuofftime.svg">https://www.renlord.com/research/cp3/geth2.cpuofftime.svg</a></li>
+<li><a href="https://www.renlord.com/research/cp3/geth-offcpu-3.svg">https://www.renlord.com/research/cp3/geth-offcpu-3.svg</a> (colour difference not significant)</li>
 </ul>
 <h4 id="Analysis">Analysis<a class="anchor-link" href="#Analysis">&#182;</a></h4><p>From the off-cpu traces, it is clear that db operations, specifically goleveldb ones frequently put the process into uninterruptible sleep while the kernel retrieves data from disk over VFS syscalls.
 DB compaction operations take more time than DB read operations when it comes to off-cpu blocking time. Specifically for off-cpu DB trie node reads, the reads from disc are specific to nodes that are deep in the Ethereum state trie which suggest that frequently visited nodes at lower depth along the trie enjoy high cache hit rates.</p>
@@ -13160,10 +13162,10 @@ DB compaction operations take more time than DB read operations when it comes to
 
 
 
-<div id="3e003d91-a323-49f9-9c43-a60eac2d7aa3"></div>
+<div id="88b343a2-dc5e-4901-ac25-307f405b3726"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#3e003d91-a323-49f9-9c43-a60eac2d7aa3');
+var element = $('#88b343a2-dc5e-4901-ac25-307f405b3726');
 
 (function(root) {
   function now() {
@@ -14347,10 +14349,10 @@ var element = $('#3e003d91-a323-49f9-9c43-a60eac2d7aa3');
 
 
 
-<div id="46e97c26-0a32-4253-a27e-2191cf2d5ff7"></div>
+<div id="7849490f-0d8a-4897-9add-c57a1bc6d0ec"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#46e97c26-0a32-4253-a27e-2191cf2d5ff7');
+var element = $('#7849490f-0d8a-4897-9add-c57a1bc6d0ec');
 
 if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
   window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
@@ -15348,6 +15350,15 @@ Finally, when reading state objects does not hit any caches, it is read from dis
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The data collected from profiling the clients consists of stack traces collected at snapshots taken at a frequency of 100hz over a 15s time interval where the 15s time interval span across the entire blockchain synchronisation process.</p>
+<p>Using this data, we can infer if a <code>tryGet</code> function call in the sample was able to read the state object from disc or from one of the caches.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -15431,9 +15442,8 @@ Finally, when reading state objects does not hit any caches, it is read from dis
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Turbo-geth, an alternative client implementation implements a flat key-value storage instead of trie data structure when storing ethereum state.</p>
-<p>From the flame graph comparison, we observe significantly less read/write overhead associated with the traversal of trie data structure.</p>
-<p>We also see that runtime does not get spent computing the trie data structure.</p>
+<p><strong>Turbo-geth</strong>, an alternative client implementation implements a flat key-value storage instead of trie data structure when storing ethereum state.
+The diagram below illustrates the runtime profile differences between the two clients.</p>
 
 </div>
 </div>
@@ -15449,8 +15459,12 @@ Finally, when reading state objects does not hit any caches, it is read from dis
 </thead>
 <tbody>
 <tr>
-<td><img src="https://www.renlord.com/research/cp3/geth-apply-tx.png" alt="geth apply tx placeholder"></td>
-<td><img src="https://www.renlord.com/research/cp3/turbo-geth-apply-tx.png" alt="turbo-geth apply tx placeholder"></td>
+<td><img src="https://www.renlord.com/research/cp3/hotlink-ok/geth-apply-tx.png" alt="geth apply tx placeholder"></td>
+<td><img src="https://www.renlord.com/research/cp3/hotlink-ok/turbo-geth-apply-tx.png" alt="turbo-geth apply tx placeholder"></td>
+</tr>
+<tr>
+<td><a href="https://www.renlord.com/research/cp3/hotlink-ok/geth-apply-tx.png">https://www.renlord.com/research/cp3/hotlink-ok/geth-apply-tx.png</a></td>
+<td><a href="https://www.renlord.com/research/cp3/hotlink-ok/turbo-geth-apply-tx.png">https://www.renlord.com/research/cp3/hotlink-ok/turbo-geth-apply-tx.png</a></td>
 </tr>
 </tbody>
 </table>
@@ -15461,6 +15475,8 @@ Finally, when reading state objects does not hit any caches, it is read from dis
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>From the flame graph comparison, we observe significantly less read/write overhead associated with the traversal of trie data structure.</p>
+<p>We also see that runtime does not get spent computing the trie data structure.</p>
 
 </div>
 </div>
