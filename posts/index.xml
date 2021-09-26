@@ -14,7 +14,7 @@
       
       <guid>https://www.renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</guid>
       <description>DNS query metadata can leak a lot of information about your internet activities. While DNS-over-TLS/HTTPS has definitely improved DNS privacy over the years, DNS requests can still be associated with user identity at the resolver by logging the origin IP address of the DNS query request. DNS-over-TLS-over-Tor addresses this vulnerability as Tor circuits masquerade the origin of the DNS request.
-Cloudflare has just deployed its DNS resolver as a Tor Hidden Service (TorHS).</description>
+Cloudflare deployed its DNS resolver as a Tor Hidden Service back in 2018.</description>
     </item>
     
     <item>
