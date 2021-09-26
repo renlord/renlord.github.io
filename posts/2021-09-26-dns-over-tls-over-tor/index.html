@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta description="">
+    <title>Forwarding DNS queries over TLS on Tor | Renlord&#39;s Webpage</title>
+    <link rel="stylesheet" href="https://www.renlord.com/css/style.css" />
+    <link rel="stylesheet" href="https://www.renlord.com/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="https://www.renlord.com/">Home</a></li>
+      
+      <li><a href="https://www.renlord.com/posts/">Posts</a></li>
+      
+      <li><a href="https://www.renlord.com/things/">Things</a></li>
+      
+      <li><a href="https://www.renlord.com/reading/">Reading</a></li>
+      
+      <li><a href="https://status.renlord.com">Status</a></li>
+      
+      <li><a href="https://www.renlord.com/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Forwarding DNS queries over TLS on Tor</span></h1>
+
+<h2 class="date">2021/09/26</h2>
+</div>
+
+<main>
+<p>DNS query metadata can leak a lot of information about your internet
+activities.
+While DNS-over-TLS/HTTPS has definitely improved DNS privacy over the years,
+DNS requests can still be associated with user identity at the resolver by
+logging the origin IP address of the DNS query request.
+DNS-over-TLS-over-Tor addresses this vulnerability as Tor circuits masquerade
+the origin of the DNS request.</p>
+<p><a href="https://developers.cloudflare.com/1.1.1.1/other-ways-to-use-1.1.1.1/dns-over-tor">Cloudflare has just deployed its DNS resolver as a Tor Hidden Service
+(TorHS)</a>.
+It being a TorHS is fantastic because <a href="https://2019.www.torproject.org/docs/onion-services">by design</a> the hidden service
+is not meant to know who the identity of the requestor is.
+Assuming Tor Hidden Services work according to its design assumptions, the DNS
+queries sent to the TorHS resolver cannot be associated with a user identity
+which thwarts DNS correlation attacks.</p>
+<h2 id="how-i-did-my-dotot-setup">How I did my DoToT setup?</h2>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">+---------+      +---------+     +-------+     +------+     +-----------------------+
+| DNS Req.| --&gt;  | Unbound | --&gt; | socat | --&gt; | Tor  | --&gt; | Cloudflare 1.1.1.1 HS |
++---------+  P   | Port 53 |  E  |  853  |  E  | 9050 |  E  |          853          |
+                 +---------+     +-------+     +------+     +-----------------------+
+</code></pre></div><p>P denotes unencrypted traffic.</p>
+<p>E denotes encrypted traffic using TLS.</p>
+<p>This was achieved using the unbound <code>forward-tls-upstream</code> configuration flag.</p>
+<p>You can find the code to do all of this:</p>
+<ul>
+<li><a href="https://github.com/renlord/homecloud/tree/main/ops/DoToT">socat systemd</a></li>
+<li><a href="https://github.com/renlord/homecloud/blob/main/ops/unbound/my-unbound.conf">unbound config</a></li>
+</ul>
+<p>For the <code>torrc</code> file, just enable <code>SocksPort 9050</code>.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  © Renlord Yang (2019 - 2021). Hugo Template by <a href="https://yihui.name">Yihui Xie</a>. Hosted on <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> proxied over <a href="https://workers.dev">Cloudflare Workers</a>.
+  
+  </footer>
+  </body>
+</html>
+

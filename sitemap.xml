@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.renlord.com/tags/android/</loc>
-    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.renlord.com/categories/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/tags/dns/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/categories/dns/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/tags/networking/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/categories/networking/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/posts/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/tags/privacy/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/categories/privacy/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/tags/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.renlord.com/tags/android/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.renlord.com/posts/2020-03-25-copperheados-legal-threat/</loc>
@@ -24,15 +54,6 @@
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.renlord.com/categories/operating-systems/</loc>
-    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.renlord.com/posts/</loc>
-    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.renlord.com/</loc>
-    <lastmod>2020-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.renlord.com/tags/</loc>
     <lastmod>2020-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</loc>
