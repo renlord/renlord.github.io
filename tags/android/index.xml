@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Renlord&#39;s Webpage</title>
-    <link>https://www.renlord.com/tags/android/</link>
+    <link>https://renlord.com/tags/android/</link>
     <description>Recent content in Android on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.renlord.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CopperheadOS Bogus Legal Threat</title>
-      <link>https://www.renlord.com/posts/2020-03-25-copperheados-legal-threat/</link>
+      <link>https://renlord.com/posts/2020-03-25-copperheados-legal-threat/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.renlord.com/posts/2020-03-25-copperheados-legal-threat/</guid>
+      <guid>https://renlord.com/posts/2020-03-25-copperheados-legal-threat/</guid>
       <description>A few months ago I received legal threats from CopperheadOS alledging that I have infringed their copyright when I&amp;rsquo;ve personally made contributions to the Graphene OS project. These accusations are invalid and have no legal basis whatsoever as the copyright of the cited code belongs to Daniel Micay who is the project owner of Graphene OS.
 I have released these legal letters (sent to both myself personally and my academic institution, The University of Melbourne) in the public domain.</description>
     </item>
     
     <item>
       <title>Apk Packages I use on Graphene OS</title>
-      <link>https://www.renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</link>
+      <link>https://renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</guid>
+      <guid>https://renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</guid>
       <description>List of apk packages (works well!) I install on GrapheneOS:
  com.nextcloud.client com.tananaev.logcat org.mian.gitnex com.aurora.adroid fr.acinq.eclair.wallet.mainnet2 com.devhd.feedly org.liberty.android.freeotpplus com.whatsapp com.transferwise.android [3] com.forrestguice.suntimeswidget org.sufficientlysecure.keychain org.schabi.newpipe im.vector.alpha au.com.nab.mobile com.vonglasow.michael.satstat com.sigmarelax.doitoscihub com.reddit.frontpage ca.rmen.android.networkmonitor org.connectbot com.secuso.privacyFriendlyCodeScanner com.waze au.gov.customs.trs org.thoughtcrime.securesms com.aurora.store au.com.selfwealth.mobile au.com.qantas.qantas com.alienpants.leafpicrevived at.bitfire.davdroid com.sonos.acr net.sourceforge.opencamera com.google.android.apps.maps org.dmfs.tasks com.samourai.sentinel au.com.realestate.app [2] com.github.axet.callrecorder com.tranzmate org.videolan.vlc com.windyty.android com.greenaddress.greenbits_android_wallet com.fsck.k9 ws.xsoh.etar com.valvesoftware.android.steam.community com.ink.jetstar.mobile.app com.digitalbitbox.tfa com.zeapo.pwdstore com.google.android.inputmethod.pinyin org.jellyfin.mobile com.logitech.ueboom au.com.medibank.phs com.stackexchange.marvin net.skyscanner.android.main net.osmand.plus com.wireguard.android de.danoeh.antennapod com.github.gotify app.attestation.auditor com.getpocketbook [3] it.</description>
     </item>

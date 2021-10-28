@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Renlord&#39;s Webpage</title>
-    <link>https://www.renlord.com/categories/networking/</link>
+    <link>https://renlord.com/categories/networking/</link>
     <description>Recent content in Networking on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.renlord.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Forwarding DNS queries over TLS on Tor</title>
-      <link>https://www.renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</link>
+      <link>https://renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</guid>
+      <guid>https://renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</guid>
       <description>DNS query metadata can leak a lot of information about your internet activities. While DNS-over-TLS/HTTPS has definitely improved DNS privacy over the years, DNS requests can still be associated with user identity at the resolver by logging the origin IP address of the DNS query request. DNS-over-TLS-over-Tor addresses this vulnerability as Tor circuits masquerade the origin of the DNS request.
 Cloudflare deployed its DNS resolver as a Tor Hidden Service back in 2018.</description>
     </item>

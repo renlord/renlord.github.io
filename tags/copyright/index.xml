@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Copyright on Renlord&#39;s Webpage</title>
-    <link>https://www.renlord.com/tags/copyright/</link>
+    <link>https://renlord.com/tags/copyright/</link>
     <description>Recent content in Copyright on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.renlord.com/tags/copyright/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/tags/copyright/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CopperheadOS Bogus Legal Threat</title>
-      <link>https://www.renlord.com/posts/2020-03-25-copperheados-legal-threat/</link>
+      <link>https://renlord.com/posts/2020-03-25-copperheados-legal-threat/</link>
       <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.renlord.com/posts/2020-03-25-copperheados-legal-threat/</guid>
+      <guid>https://renlord.com/posts/2020-03-25-copperheados-legal-threat/</guid>
       <description>A few months ago I received legal threats from CopperheadOS alledging that I have infringed their copyright when I&amp;rsquo;ve personally made contributions to the Graphene OS project. These accusations are invalid and have no legal basis whatsoever as the copyright of the cited code belongs to Daniel Micay who is the project owner of Graphene OS.
 I have released these legal letters (sent to both myself personally and my academic institution, The University of Melbourne) in the public domain.</description>
     </item>
