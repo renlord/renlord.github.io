@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta description="">
     <title>Docker Multiarch Builds Quick and Easy | Renlord&#39;s Webpage</title>
     <link rel="stylesheet" href="https://renlord.com/css/style.css" />
     <link rel="stylesheet" href="https://renlord.com/css/fonts.css" />
@@ -54,112 +53,112 @@ It is important that the static binaries are used when building docker images fo
 When building for a target architecture, all programs (i.e. linkers and other build tools) run in the target architecture.
 Therefore, without the static binary, you will encounter an exec init error when building your image.</p>
 <p>Contents of the Package:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">qemu-user-static-bin /usr/
-qemu-user-static-bin /usr/bin/
-qemu-user-static-bin /usr/bin/qemu-aarch64-static
-qemu-user-static-bin /usr/bin/qemu-aarch64_be-static
-qemu-user-static-bin /usr/bin/qemu-alpha-static
-qemu-user-static-bin /usr/bin/qemu-arm-static
-qemu-user-static-bin /usr/bin/qemu-armeb-static
-qemu-user-static-bin /usr/bin/qemu-cris-static
-qemu-user-static-bin /usr/bin/qemu-hppa-static
-qemu-user-static-bin /usr/bin/qemu-i386-static
-qemu-user-static-bin /usr/bin/qemu-m68k-static
-qemu-user-static-bin /usr/bin/qemu-microblaze-static
-qemu-user-static-bin /usr/bin/qemu-microblazeel-static
-qemu-user-static-bin /usr/bin/qemu-mips-static
-qemu-user-static-bin /usr/bin/qemu-mips64-static
-qemu-user-static-bin /usr/bin/qemu-mips64el-static
-qemu-user-static-bin /usr/bin/qemu-mipsel-static
-qemu-user-static-bin /usr/bin/qemu-mipsn32-static
-qemu-user-static-bin /usr/bin/qemu-mipsn32el-static
-qemu-user-static-bin /usr/bin/qemu-nios2-static
-qemu-user-static-bin /usr/bin/qemu-or1k-static
-qemu-user-static-bin /usr/bin/qemu-ppc-static
-qemu-user-static-bin /usr/bin/qemu-ppc64-static
-qemu-user-static-bin /usr/bin/qemu-ppc64abi32-static
-qemu-user-static-bin /usr/bin/qemu-ppc64le-static
-qemu-user-static-bin /usr/bin/qemu-riscv32-static
-qemu-user-static-bin /usr/bin/qemu-riscv64-static
-qemu-user-static-bin /usr/bin/qemu-s390x-static
-qemu-user-static-bin /usr/bin/qemu-sh4-static
-qemu-user-static-bin /usr/bin/qemu-sh4eb-static
-qemu-user-static-bin /usr/bin/qemu-sparc-static
-qemu-user-static-bin /usr/bin/qemu-sparc32plus-static
-qemu-user-static-bin /usr/bin/qemu-sparc64-static
-qemu-user-static-bin /usr/bin/qemu-tilegx-static
-qemu-user-static-bin /usr/bin/qemu-x86_64-static
-qemu-user-static-bin /usr/bin/qemu-xtensa-static
-qemu-user-static-bin /usr/bin/qemu-xtensaeb-static
-qemu-user-static-bin /usr/lib/
-qemu-user-static-bin /usr/lib/binfmt.d/
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-aarch64-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-alpha-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-arm-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-armeb-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-cris-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-m68k-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-microblaze-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-microblazeel-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips64-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips64el-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-mipsel-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64abi32-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64le-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-s390x-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-sh4-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-sh4eb-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc32plus-static.conf
-qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc64-static.conf
-qemu-user-static-bin /usr/share/
-qemu-user-static-bin /usr/share/man/
-qemu-user-static-bin /usr/share/man/man1/
-qemu-user-static-bin /usr/share/man/man1/qemu-aarch64-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-aarch64_be-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-alpha-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-arm-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-armeb-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-cris-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-hppa-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-i386-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-m68k-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-microblaze-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-microblazeel-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-mips-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-mips64-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-mips64el-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-mipsel-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-mipsn32-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-mipsn32el-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-nios2-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-or1k-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-ppc-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-ppc64-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-ppc64abi32-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-ppc64le-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-riscv32-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-riscv64-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-s390x-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-sh4-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-sh4eb-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-sparc-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-sparc32plus-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-sparc64-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-tilegx-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-user-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-x86_64-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-xtensa-static.1.gz
-qemu-user-static-bin /usr/share/man/man1/qemu-xtensaeb-static.1.gz
-</code></pre></div><p>If you&rsquo;re not using Archlinux, you might want to find the equivalent package in your target distribution.
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>qemu-user-static-bin /usr/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-aarch64-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-aarch64_be-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-alpha-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-arm-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-armeb-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-cris-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-hppa-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-i386-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-m68k-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-microblaze-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-microblazeel-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-mips-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-mips64-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-mips64el-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-mipsel-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-mipsn32-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-mipsn32el-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-nios2-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-or1k-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-ppc-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-ppc64-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-ppc64abi32-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-ppc64le-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-riscv32-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-riscv64-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-s390x-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-sh4-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-sh4eb-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-sparc-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-sparc32plus-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-sparc64-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-tilegx-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-x86_64-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-xtensa-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/bin/qemu-xtensaeb-static
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-aarch64-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-alpha-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-arm-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-armeb-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-cris-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-m68k-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-microblaze-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-microblazeel-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips64-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-mips64el-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-mipsel-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64abi32-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-ppc64le-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-s390x-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-sh4-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-sh4eb-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc32plus-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/lib/binfmt.d/qemu-sparc64-static.conf
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-aarch64-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-aarch64_be-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-alpha-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-arm-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-armeb-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-cris-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-hppa-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-i386-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-m68k-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-microblaze-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-microblazeel-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-mips-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-mips64-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-mips64el-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-mipsel-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-mipsn32-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-mipsn32el-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-nios2-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-or1k-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-ppc-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-ppc64-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-ppc64abi32-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-ppc64le-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-riscv32-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-riscv64-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-s390x-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-sh4-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-sh4eb-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-sparc-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-sparc32plus-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-sparc64-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-tilegx-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-user-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-x86_64-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-xtensa-static.1.gz
+</span></span><span style="display:flex;"><span>qemu-user-static-bin /usr/share/man/man1/qemu-xtensaeb-static.1.gz
+</span></span></code></pre></div><p>If you&rsquo;re not using Archlinux, you might want to find the equivalent package in your target distribution.
 This package is only installed on the host machine you use to build docker multiarch images.</p>
 <p>Once this is installed, turn on <code>binfmt_misc</code> capability.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
-echo 1 &gt; /proc/sys/fs/binfmt_misc/status
-</code></pre></div><p>For a more permenant setup, <code>echo &quot;none /proc/sys/fs/binfmt_misc binfmt_misc defaults 0 0&quot; | tee /etc/fstab</code> and enable the <code>systemd-binfmt</code> service.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
+</span></span><span style="display:flex;"><span>echo 1 &gt; /proc/sys/fs/binfmt_misc/status
+</span></span></code></pre></div><p>For a more permenant setup, <code>echo &quot;none /proc/sys/fs/binfmt_misc binfmt_misc defaults 0 0&quot; | tee /etc/fstab</code> and enable the <code>systemd-binfmt</code> service.</p>
 <p>Now, you can build/run any Docker images of any architecture to your heart&rsquo;s content.</p>
 <p>Just run <code>docker build . -f [DOCKERFILE] -t [IMAGE_NAME]:[ARCH_TAG]</code>.</p>
 <h2 id="multiarch-images">Multiarch Images</h2>
@@ -167,19 +166,19 @@ echo 1 &gt; /proc/sys/fs/binfmt_misc/status
 Image manifest allows you to annotate additional details for specific tagged images.
 Remember to turn on experimental features for the Docker CLI tool at <code>$HOME/.docker/config.json</code> on the host machine where you are authoring the manifest.
 For example, supposed we want to build <code>whoami</code> for <code>arm32</code>, <code>arm64</code> and <code>x86</code>, we can create an image manifest for <code>whoami</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker manifest create whoami:latest \
-    whoami:arm32 \
-    whoami:arm64 \
-    whoami:x86
-
-docker manifest annotate --arch arm --os linux whoami:latest \
-    whoami:arm32
-docker manifest annotate --arch arm64 --os linux whoami:latest \
-    whoami:arm64
-docker manifest annotate --arch x86 --os linux whoami:latest \
-    whoami:x86
-docker manifest push -p whoami:latest
-</code></pre></div><p>This assumes that you&rsquo;ve already build individual <code>whoami</code> images for each architecture.
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>docker manifest create whoami:latest \
+</span></span><span style="display:flex;"><span>    whoami:arm32 \
+</span></span><span style="display:flex;"><span>    whoami:arm64 \
+</span></span><span style="display:flex;"><span>    whoami:x86
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>docker manifest annotate --arch arm --os linux whoami:latest \
+</span></span><span style="display:flex;"><span>    whoami:arm32
+</span></span><span style="display:flex;"><span>docker manifest annotate --arch arm64 --os linux whoami:latest \
+</span></span><span style="display:flex;"><span>    whoami:arm64
+</span></span><span style="display:flex;"><span>docker manifest annotate --arch x86 --os linux whoami:latest \
+</span></span><span style="display:flex;"><span>    whoami:x86
+</span></span><span style="display:flex;"><span>docker manifest push -p whoami:latest
+</span></span></code></pre></div><p>This assumes that you&rsquo;ve already build individual <code>whoami</code> images for each architecture.
 The <code>-p</code> flag for <code>docker manifest push</code> purges the manifest list locally, I found this to be useful as subsequent updates to the manifest require you to recreate the manifest from scratch and if a local copy exist, <code>docker manifest</code> will not run successfully.
 After pushing the manifest to the remote repository, you can now pull <code>whoami:latest</code> from target nodes of various architectures safely without needing to worry about including an <code>[ARCH_TAG]</code> for the image.
 For example, on my Odroid-XU4 which runs <code>arm32</code> arch, it will automatically pull <code>whoami:arm32</code> when I run <code>docker pull whoami:latest</code>.</p>

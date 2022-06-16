@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AS204710 is live, long live the Zippy Kangaroo</title>
+      <link>https://renlord.com/posts/2022-06-15-as204710-is-live/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/posts/2022-06-15-as204710-is-live/</guid>
+      <description>I&amp;rsquo;ve recently just set up an IPv6-only AS called Zippy Kangaroo.
+I broadcast my IPv6 prefixes from my home server cluster. So far, only supporting ICMP.
+Hoping to run more services.
+I&amp;rsquo;m looking for fellow ASes to peer with!</description>
+    </item>
+    
     <item>
       <title>Forwarding DNS queries over TLS on Tor</title>
       <link>https://renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</link>
@@ -34,7 +46,7 @@ I have released these legal letters (sent to both myself personally and my acade
       
       <guid>https://renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</guid>
       <description>List of apk packages (works well!) I install on GrapheneOS:
- com.nextcloud.client com.tananaev.logcat org.mian.gitnex com.aurora.adroid fr.acinq.eclair.wallet.mainnet2 com.devhd.feedly org.liberty.android.freeotpplus com.whatsapp com.transferwise.android [3] com.forrestguice.suntimeswidget org.sufficientlysecure.keychain org.schabi.newpipe im.vector.alpha au.com.nab.mobile com.vonglasow.michael.satstat com.sigmarelax.doitoscihub com.reddit.frontpage ca.rmen.android.networkmonitor org.connectbot com.secuso.privacyFriendlyCodeScanner com.waze au.gov.customs.trs org.thoughtcrime.securesms com.aurora.store au.com.selfwealth.mobile au.com.qantas.qantas com.alienpants.leafpicrevived at.bitfire.davdroid com.sonos.acr net.sourceforge.opencamera com.google.android.apps.maps org.dmfs.tasks com.samourai.sentinel au.com.realestate.app [2] com.github.axet.callrecorder com.tranzmate org.videolan.vlc com.windyty.android com.greenaddress.greenbits_android_wallet com.fsck.k9 ws.xsoh.etar com.valvesoftware.android.steam.community com.ink.jetstar.mobile.app com.digitalbitbox.tfa com.zeapo.pwdstore com.google.android.inputmethod.pinyin org.jellyfin.mobile com.logitech.ueboom au.com.medibank.phs com.stackexchange.marvin net.skyscanner.android.main net.osmand.plus com.wireguard.android de.danoeh.antennapod com.github.gotify app.attestation.auditor com.getpocketbook [3] it.</description>
+com.nextcloud.client com.tananaev.logcat org.mian.gitnex com.aurora.adroid fr.acinq.eclair.wallet.mainnet2 com.devhd.feedly org.liberty.android.freeotpplus com.whatsapp com.transferwise.android [3] com.forrestguice.suntimeswidget org.sufficientlysecure.keychain org.schabi.newpipe im.vector.alpha au.com.nab.mobile com.vonglasow.michael.satstat com.sigmarelax.doitoscihub com.reddit.frontpage ca.rmen.android.networkmonitor org.connectbot com.secuso.privacyFriendlyCodeScanner com.waze au.gov.customs.trs org.thoughtcrime.securesms com.aurora.store au.com.selfwealth.mobile au.com.qantas.qantas com.alienpants.leafpicrevived at.bitfire.davdroid com.sonos.acr net.sourceforge.opencamera com.google.android.apps.maps org.dmfs.tasks com.samourai.sentinel au.com.realestate.app [2] com.github.axet.callrecorder com.tranzmate org.videolan.vlc com.windyty.android com.greenaddress.greenbits_android_wallet com.fsck.k9 ws.xsoh.etar com.valvesoftware.android.steam.community com.ink.jetstar.mobile.app com.digitalbitbox.tfa com.zeapo.pwdstore com.google.android.inputmethod.pinyin org.jellyfin.mobile com.logitech.ueboom au.com.medibank.phs com.stackexchange.marvin net.skyscanner.android.main net.osmand.plus com.wireguard.android de.danoeh.antennapod com.github.gotify app.attestation.auditor com.getpocketbook [3] it.</description>
     </item>
     
     <item>

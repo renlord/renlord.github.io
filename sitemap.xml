@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://renlord.com/posts/2022-06-15-as204710-is-live/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/bgp/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/categories/bgp/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://renlord.com/categories/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/internet/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/categories/internet/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/networking/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/categories/networking/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/posts/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/tags/dns/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
@@ -14,25 +44,10 @@
     <loc>https://renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://renlord.com/tags/networking/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/categories/networking/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/posts/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://renlord.com/tags/privacy/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/categories/privacy/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/tags/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/tags/android/</loc>

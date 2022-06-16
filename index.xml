@@ -6,7 +6,19 @@
     <description>Recent content in Renlord Yang on Renlord&#39;s Webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://renlord.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AS204710 is live, long live the Zippy Kangaroo</title>
+      <link>https://renlord.com/posts/2022-06-15-as204710-is-live/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://renlord.com/posts/2022-06-15-as204710-is-live/</guid>
+      <description>I&amp;rsquo;ve recently just set up an IPv6-only AS called Zippy Kangaroo.
+I broadcast my IPv6 prefixes from my home server cluster. So far, only supporting ICMP.
+Hoping to run more services.
+I&amp;rsquo;m looking for fellow ASes to peer with!</description>
+    </item>
+    
     <item>
       <title>Forwarding DNS queries over TLS on Tor</title>
       <link>https://renlord.com/posts/2021-09-26-dns-over-tls-over-tor/</link>
@@ -34,7 +46,7 @@ I have released these legal letters (sent to both myself personally and my acade
       
       <guid>https://renlord.com/posts/2020-01-10-grapheneos-compatible-apps/</guid>
       <description>List of apk packages (works well!) I install on GrapheneOS:
- com.nextcloud.client com.tananaev.logcat org.mian.gitnex com.aurora.adroid fr.acinq.eclair.wallet.mainnet2 com.devhd.feedly org.liberty.android.freeotpplus com.whatsapp com.transferwise.android [3] com.forrestguice.suntimeswidget org.sufficientlysecure.keychain org.schabi.newpipe im.vector.alpha au.com.nab.mobile com.vonglasow.michael.satstat com.sigmarelax.doitoscihub com.reddit.frontpage ca.rmen.android.networkmonitor org.connectbot com.secuso.privacyFriendlyCodeScanner com.waze au.gov.customs.trs org.thoughtcrime.securesms com.aurora.store au.com.selfwealth.mobile au.com.qantas.qantas com.alienpants.leafpicrevived at.bitfire.davdroid com.sonos.acr net.sourceforge.opencamera com.google.android.apps.maps org.dmfs.tasks com.samourai.sentinel au.com.realestate.app [2] com.github.axet.callrecorder com.tranzmate org.videolan.vlc com.windyty.android com.greenaddress.greenbits_android_wallet com.fsck.k9 ws.xsoh.etar com.valvesoftware.android.steam.community com.ink.jetstar.mobile.app com.digitalbitbox.tfa com.zeapo.pwdstore com.google.android.inputmethod.pinyin org.jellyfin.mobile com.logitech.ueboom au.com.medibank.phs com.stackexchange.marvin net.skyscanner.android.main net.osmand.plus com.wireguard.android de.danoeh.antennapod com.github.gotify app.attestation.auditor com.getpocketbook [3] it.</description>
+com.nextcloud.client com.tananaev.logcat org.mian.gitnex com.aurora.adroid fr.acinq.eclair.wallet.mainnet2 com.devhd.feedly org.liberty.android.freeotpplus com.whatsapp com.transferwise.android [3] com.forrestguice.suntimeswidget org.sufficientlysecure.keychain org.schabi.newpipe im.vector.alpha au.com.nab.mobile com.vonglasow.michael.satstat com.sigmarelax.doitoscihub com.reddit.frontpage ca.rmen.android.networkmonitor org.connectbot com.secuso.privacyFriendlyCodeScanner com.waze au.gov.customs.trs org.thoughtcrime.securesms com.aurora.store au.com.selfwealth.mobile au.com.qantas.qantas com.alienpants.leafpicrevived at.bitfire.davdroid com.sonos.acr net.sourceforge.opencamera com.google.android.apps.maps org.dmfs.tasks com.samourai.sentinel au.com.realestate.app [2] com.github.axet.callrecorder com.tranzmate org.videolan.vlc com.windyty.android com.greenaddress.greenbits_android_wallet com.fsck.k9 ws.xsoh.etar com.valvesoftware.android.steam.community com.ink.jetstar.mobile.app com.digitalbitbox.tfa com.zeapo.pwdstore com.google.android.inputmethod.pinyin org.jellyfin.mobile com.logitech.ueboom au.com.medibank.phs com.stackexchange.marvin net.skyscanner.android.main net.osmand.plus com.wireguard.android de.danoeh.antennapod com.github.gotify app.attestation.auditor com.getpocketbook [3] it.</description>
     </item>
     
     <item>
@@ -63,7 +75,7 @@ When it was just building for one type of architecture (i.e. arm32) for my Odroi
       
       <guid>https://renlord.com/reading/</guid>
       <description>Reading My personal collection of reading material.
-Systems General Systems  Latency Numbers every programmer should know What Systems Researchers Need to Know about NAND Flash What Every Programmer Should Know About Memory  Mobile Devices  An Analysis of Power Consumption in a Smartphone  Android  The Android Platform Security Model  Inspirational  The Fable of the Dragon-Tyrant The illustrated guide to a Ph.D.  Books  Algorithms to Live By: The Computer Science of Human Decisions 👍 Bad Blood: Secrets and Lies in a Silicon Valley Startup 🤓 Capital in the Twenty-First Century 🤓 Capital and Idealogy 🍿 Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley 👍Immune: A Journey Into the Mysterious System That Keeps You Alive &amp;mdash; Video Trailer by Kurzgesagt Lifespan: Why We Age—and Why We Don&amp;rsquo;t Have To 😌 Love for Imperfect Things: How to Accept Yourself in a World Striving for Perfection Permanant Record 🍿 The Dictators&#39; Handbook &amp;mdash; Video Trailer by CGP Grey The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom  👍 &amp;mdash; Good read, interesting.</description>
+Systems General Systems Latency Numbers every programmer should know What Systems Researchers Need to Know about NAND Flash What Every Programmer Should Know About Memory Mobile Devices An Analysis of Power Consumption in a Smartphone Android The Android Platform Security Model Inspirational The Fable of the Dragon-Tyrant The illustrated guide to a Ph.D. Books Algorithms to Live By: The Computer Science of Human Decisions 👍 Bad Blood: Secrets and Lies in a Silicon Valley Startup 🤓 Capital in the Twenty-First Century 🤓 Capital and Idealogy 🍿 Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley 👍Immune: A Journey Into the Mysterious System That Keeps You Alive &amp;mdash; Video Trailer by Kurzgesagt Lifespan: Why We Age—and Why We Don&amp;rsquo;t Have To 😌 Love for Imperfect Things: How to Accept Yourself in a World Striving for Perfection Permanant Record 🍿 The Dictators&amp;rsquo; Handbook &amp;mdash; Video Trailer by CGP Grey The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom 👍 &amp;mdash; Good read, interesting.</description>
     </item>
     
     <item>
@@ -74,7 +86,7 @@ Systems General Systems  Latency Numbers every programmer should know What Syste
       <guid>https://renlord.com/things/</guid>
       <description>Things Last Updated: 01.10.2021
 Communication I use the following chat services (in order of personal preference):
- Signal Whatsapp (Inevitable in SG) Matrix  Bitcoin You know what Bitcoin is, but how does it work?. 3blue1brown (Grant Sanderson) on Youtube explains it best. How secure is Bitcoin? A numerical explanation, again by 3blue1brown (Grant Sanderson) on Youtube.
+Signal Whatsapp (Inevitable in SG) Matrix Bitcoin You know what Bitcoin is, but how does it work?. 3blue1brown (Grant Sanderson) on Youtube explains it best. How secure is Bitcoin? A numerical explanation, again by 3blue1brown (Grant Sanderson) on Youtube.
 Services and Hardware I self-host a good number of services on my inexpensive private cluster of ARM single-board computers (SBCs) and a x86 NUC.</description>
     </item>
     
