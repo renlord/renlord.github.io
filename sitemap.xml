@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://renlord.com/categories/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/posts/2023-08-10-hellish-experience-rental-sg/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/posts/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/rental/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/categories/rental/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/singapore/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://renlord.com/tags/tenancy/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://renlord.com/posts/2022-06-15-as204710-is-live/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +36,6 @@
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/categories/bgp/</loc>
-    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/categories/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/tags/internet/</loc>
@@ -24,15 +48,6 @@
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/categories/networking/</loc>
-    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/posts/</loc>
-    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/</loc>
-    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://renlord.com/tags/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/tags/dns/</loc>
@@ -96,7 +111,6 @@
     <lastmod>2019-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://renlord.com/google29121bf6dbd9149a/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://renlord.com/reading/</loc>
   </url><url>
